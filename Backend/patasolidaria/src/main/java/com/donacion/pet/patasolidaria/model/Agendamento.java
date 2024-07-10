@@ -15,7 +15,7 @@ import java.util.Date;
 public class Agendamento {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private Long id;
+    private String id;
 
     private Date dataAtendimento;
 

@@ -12,7 +12,7 @@ public class Endereco {
 
     @Id
     @GeneratedValue( strategy = GenerationType.UUID)
-    private Long id;
+    private String id;
 
     private String Logradouro;
 

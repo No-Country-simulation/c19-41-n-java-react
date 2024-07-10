@@ -11,7 +11,7 @@ import java.time.Instant;
 public class Servico {
     @Id
     @GeneratedValue( strategy = GenerationType.UUID)
-    private Long id;
+    private String id;
 
     private String nome;
 

@@ -14,7 +14,7 @@ public class Profissional {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID )
-    private Long id;
+    private String id;
 
     private String espacialidade;
 
