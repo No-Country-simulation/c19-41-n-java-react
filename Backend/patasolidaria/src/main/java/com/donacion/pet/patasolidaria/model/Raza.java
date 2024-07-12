@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Raca {
+public class Raza {
 
     private static final long serialVersion = 1L;
 
