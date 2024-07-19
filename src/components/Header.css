@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+}
+
+.logo {
+    width:30%;
+    height: 30%;
+}
+.boton {
+    margin-right: 5%;
+    background-color: #F2D56B;
+    color: #8A6642;   
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #F29F00;
+    color: #F7F7F7;   
+}
+
+#mynavbar {
+    margin-right: 1%;
+    
+}
+.bg-dark {
+    background-color: antiquewhite !important;
+    
+}
+.nav-link {
+    color: #8A6642;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.nav-link:hover {
+    background-color: #F29F00;
+    color: #F7F7F7;   
+}
