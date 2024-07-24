@@ -1,7 +1,5 @@
 package com.donacion.pet.patasolidaria.dto;
 
-import com.donacion.pet.patasolidaria.model.Endereco;
-
 import java.util.List;
 
 public class ClienteDTO {
@@ -10,7 +8,7 @@ public class ClienteDTO {
     private String sobrenome;
     private String email;
     private String telefone;
-    private List<Endereco> enderecos;
+    private List<EnderecoDTO> enderecos;
 
     public String getNome() {
         return nome;
@@ -44,11 +42,11 @@ public class ClienteDTO {
         this.telefone = telefone;
     }
 
-    public List<Endereco> getEnderecos() {
+    public List<EnderecoDTO> getEnderecos() {
         return enderecos;
     }
 
-    public void setEnderecos(List<Endereco> enderecos) {
+    public void setEnderecos(List<EnderecoDTO> enderecos) {
         this.enderecos = enderecos;
     }
 }

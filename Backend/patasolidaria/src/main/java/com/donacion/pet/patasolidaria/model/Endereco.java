@@ -1,5 +1,6 @@
 package com.donacion.pet.patasolidaria.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -24,6 +25,7 @@ public class Endereco implements Serializable {
 
     @ManyToOne
     @JoinColumn(name="cliente_id")
+    @JsonBackReference
     private Cliente cliente;
 
     public String getId() {

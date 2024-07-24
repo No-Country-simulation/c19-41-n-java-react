@@ -1,5 +1,6 @@
 package com.donacion.pet.patasolidaria.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -29,6 +30,7 @@ public class Cliente implements Serializable {
     private Instant updatedAt;
 
     @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<Endereco> enderecos;
 
     public String getId() {
